@@ -3,8 +3,6 @@
 * {
   padding: 0;
   margin: 0;
-  text-decoration: none;
-  list-style-type: none;
 }
 
 .header, .footer {
@@ -32,6 +30,7 @@
   z-index: 4;
   position: relative;
 }
+
 .full-logo {
   display: flex;
 }
@@ -46,31 +45,36 @@
 }
 
 .header-title {
-  margin-top: 130px;
+  margin-top: 100px;
 }
 
 .subject {
   text-transform: uppercase;
   font-family: 'Open Sans', 'Arial', sans-serif;
-  font-size: 140%;
+  font-size: 28px;
   color:  #ffffff;
   font-weight: 700;
+  letter-spacing: 1.7;
 }
 
 .first-title {
   margin-left: 7%;
-  margin-right: 24%;
-  line-height: 2.1;
+  line-height: 2.5;
 }
 
 .second-title {
-  margin-left: 19%;
-  margin-right: 10%;
+  display: block;
+  margin-left: 15%;
+  line-height: 1.2;
 
 }
 .downloads {
-  margin-left: 7%;
-  margin-top: 30%;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+
+.download-link:nth-child(1) {
+  margin-bottom: 15px;
 }
 
 .download-link {
@@ -86,26 +90,19 @@
   background-color: #827300;
 }
 
-.download:nth-child(1) {
-  margin-bottom: 15px;
-}
 
 .title {
   text-transform: uppercase;
   font-family: 'Open Sans', 'Arial', sans-serif;
   font-size: 8px;
   color:  #ffffff;
+  font-weight: 400;
 }
 
 .download-way {
   display:  block;
   font-weight: 700;
 
-}
-
-.download-title {
-  display:  block;
-  font-weight: 400;
 }
 
 .icon {
@@ -129,26 +126,22 @@
 }
 
 .background-picture {
-  background-repeat: no-repeat;
-  background-position: center;
+  display: block;
+  width: 100%;
+  height: auto;
   z-index: 1;
   position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  top: 0;
-}
-
-.footballer {
-  background-image: url('images/footballer_320.png');
-  height: 430px;
-  background-size: 60%;
+  margin-top: 70px;
+  text-align: center;
 }
 
 .number {
+  display: block;
   font-family: 'Open Sans', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 15px;
+  color: #000000;
+  margin-right: 10px;
 }
 
 .number::after {
@@ -177,8 +170,8 @@
   text-transform: uppercase;
   font-family: 'Open Sans', 'Arial', sans-serif;
   font-size: 23px;
-  margin-left: 10px;
   line-height: 1;
+  display: flex;
 }
 
 .text {
@@ -213,16 +206,6 @@
   color: #ffffff;
 }
 
-.players {
-  position: relative;
-}
-
-.basketballer {
-  background-image: url('images/player.png');
-  height: 400px;
-  background-size: 90%;
-}
-
 .growth-second {
   padding: 60px 0 50px 20px;
   background-color: #090c35;
@@ -230,21 +213,6 @@
 
 .purple {
   color: #8765dd;
-}
-
-hh@media (max-width: 640px) {
-  .card__preview {
-  background-image: url('images/Be-active_320.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  }
-}
-.article-number {
-  position: absolute;
-  z-index: 5;
-  margin-top: -90px;
-  margin-left: 20px;
 }
 
 .white-number {
@@ -255,18 +223,28 @@ hh@media (max-width: 640px) {
   height: 70px;
   padding: 25px;
   box-sizing: border-box;
+  position: absolute;
+  z-index: 5;
+  margin-top: -90px;
+  margin-left: 20px;
 }
 
 .white-number::after {
   background-color: #8f7bc8;
 }
 
-.article-title {
+.card__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
   margin-top: 34px;
   font-size:  28px;
 }
 
-.article-text {
+.card-text {
   margin-top: 24px;
   margin-left: 20px;
   font-size: 16px;
@@ -316,5 +294,5 @@ hh@media (max-width: 640px) {
 }
 
 .footer-logo-text {
-  margin-top: 80px;
+  margin-top: 70px;
 }
