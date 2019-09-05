@@ -79,11 +79,13 @@
 
 .download-link {
   display: flex;
-  width: 89%;
+  width: 280px;
   background-color: #5e42b0;
   border-radius: 25px;
   box-sizing: border-box;
-  padding: 2% 23% 2% 29%;
+  padding: 5px 70px 5px 82px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .downloads:hover {
