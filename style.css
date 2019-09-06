@@ -45,36 +45,35 @@
 }
 
 .header-title {
-  margin-top: 100px;
-}
-
-.subject {
   text-transform: uppercase;
   font-family: 'Open Sans', 'Arial', sans-serif;
   font-size: 28px;
   color:  #ffffff;
   font-weight: 700;
   letter-spacing: 1.7;
+  margin-top: 100px;
 }
 
 .first-title {
-  margin-left: 7%;
+  margin-left: 8%;
   line-height: 2.5;
 }
 
 .second-title {
   display: block;
-  margin-left: 15%;
+  margin-left: 17%;
   line-height: 1.2;
 
 }
 .downloads {
-  margin-left: 20px;
   margin-top: 80px;
 }
 
-.download-link:nth-child(1) {
+@media (max-width:640px) {
+
+  .download-link:nth-child(1) {
   margin-bottom: 15px;
+  }
 }
 
 .download-link {
@@ -167,7 +166,7 @@
   padding: 83px 0 50px 20px;
 }
 
-.menu-title {
+.content-title {
   color: #c1c1c1;
   text-transform: uppercase;
   font-family: 'Open Sans', 'Arial', sans-serif;
@@ -283,6 +282,11 @@
 .footer-subject {
   font-size: 32px;
   margin: 55px auto 0 auto;
+  text-transform: uppercase;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  color:  #ffffff;
+  font-weight: 700;
+  letter-spacing: 1.7;
 }
 
 .footer-leading {
@@ -297,4 +301,208 @@
 
 .footer-logo-text {
   margin-top: 70px;
+}
+
+@media (min-width: 641px) {
+
+  .logo-text {
+    width: 205px;
+    margin-top: 33px;
+  }
+
+ .header-title {
+    font-size: 64px;
+    line-height: 1;
+    margin-top: 178px;
+    letter-spacing: 0.5px;
+  }
+
+  .downloads {
+    display: flex;
+    margin-top: 300px;
+  }
+
+  .download-link {
+    justify-content: space-evenly;
+    width: 310px;
+    box-sizing: border-box;
+    padding: 15px 53px 15px 50px;
+    border-radius: 40px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+  }
+
+ .section-title-athlete {
+   display: flex;
+   justify-content: center;
+   margin-left: 40px;
+  }
+
+  .heading {
+   margin-top: 83px;
+  }
+
+  .card-title {
+   font-size: 80px;
+   line-height: 0.75;
+   margin-top: 85px;
+  }
+
+  .athlete-content {
+   justify-content: flex-end;
+   top: -500px;
+  }
+
+  .menu-title, .text {
+    width: 61%;
+    margin-right: 5px;
+
+  }
+
+  .content-title {
+    font-size: 32px;
+    letter-spacing: 0.5px
+  }
+
+  .number {
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+
+  }
+
+  .text, .text-player {
+    font-size: 16px;
+    letter-spacing: 0.5px
+  }
+
+  .footballer {
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    left: -160px;
+    margin-top: 95px;
+  }
+
+  .connaction {
+    background-color: #ffffff;
+    padding: 10px 20px 40px 20px;
+  }
+
+  .growth-second, .growth-first, .collaboration {
+    padding: 40px 20px 40px 20px;
+    box-sizing: border-box;
+  }
+
+  .basketballer {
+    display: flex;
+    position: absolute;
+    z-index: 9;
+    justify-content: flex-end;
+    margin-top: 40px;
+  }
+
+  .players {
+    margin-top: -500px;
+  }
+
+  .players-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    top: -500px;
+  }
+
+  .menu-title-player, .text-player {
+    width: 52%;
+  }
+
+  .number::after, purple::after, white::after {
+    width: 20px;
+    height: 5px;
+  }
+
+  .card-1 {
+    margin-top: -500px;
+  }
+
+  .card-title {
+    font-size: 80px;
+    line-height: 0.75;
+  }
+
+  .card-text {
+    margin-top: 30px;
+    width: 85%;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+  }
+
+  .card-content {
+    margin-left: 15px;
+  }
+
+  .white-number {
+    width: 115px;
+    height: 115px;
+    font-size: 24px;
+    line-height: 1.45;
+    padding: 40px;
+    margin-top: -170px;
+  }
+
+  .white-number::after {
+    width: 28px;
+    height: 6px;
+  }
+
+  .footer-icon {
+    width: 95px;
+    padding: 20px 11px 20px 15px;
+    border-radius: 30px;
+    margin: 120px auto 0 auto;
+  }
+
+  .footer-subject {
+    font-size: 80px;
+    letter-spacing: 0.6px;
+  }
+
+  .footer-leading {
+    font-size: 34px;
+    margin-top: 5px;
+  }
+
+  .footer-logo-text {
+    margin-top: 60px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
