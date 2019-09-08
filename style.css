@@ -422,8 +422,7 @@
   .section-title-player::before {
    background-image: url('images/basketballer_436.png');
    width: 100%;
-   background-position: right: ;
-   right: -150px;
+   background-position: right;
    height: 700px;
    margin-top: -70px;
   }
