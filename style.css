@@ -124,16 +124,19 @@
   font-size: 50px;
   margin-left: 20px;
   margin-top: 20px;
+  position: relative;
 }
 
-.background-picture {
-  display: block;
+.section-title-athlete::before {
+  content: "";
+  background-image: url('images/footballer_320.png');
+  background-repeat: no-repeat;
   width: 100%;
-  height: auto;
-  z-index: 1;
+  background-position: center;
+  height: 350px;
   position: absolute;
-  margin-top: 70px;
-  text-align: center;
+  z-index: 10;
+  margin-top: 40px;
 }
 
 .number {
@@ -182,6 +185,18 @@
   font-weight: 400;
   font-size: 15px;
   margin-top: 25px;
+}
+
+.section-title-player::before {
+  content: "";
+  background-image: url('images/player_320.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  height: 300px;
+  position: absolute;
+  z-index: 10;
+  margin-top: 45px;
 }
 
 .collaboration {
@@ -343,11 +358,19 @@
 
  .section-title-athlete {
    display: flex;
-   justify-content: center;
-   margin-left: 40px;
+   justify-content: flex-end;
+  }
+
+  .section-title-athlete::before {
+   background-image: url('images/footballer_497.png');
+   width: 100%;
+   background-position: left;
+   left: -180px;
+   height: 700px;
   }
 
   .heading {
+   font-size: 80px;
    margin-top: 83px;
   }
 
@@ -375,7 +398,7 @@
 
   .number {
     font-size: 18px;
-    line-height: 1.8;
+    line-height: 1;
     letter-spacing: 0.5px;
 
   }
@@ -385,13 +408,6 @@
     letter-spacing: 0.5px
   }
 
-  .footballer {
-    position: absolute;
-    z-index: 9;
-    display: flex;
-    left: -160px;
-    margin-top: 95px;
-  }
 
   .connaction {
     background-color: #ffffff;
@@ -403,13 +419,15 @@
     box-sizing: border-box;
   }
 
-  .basketballer {
-    display: flex;
-    position: absolute;
-    z-index: 9;
-    justify-content: flex-end;
-    margin-top: 40px;
+  .section-title-player::before {
+   background-image: url('images/basketballer_436.png');
+   width: 100%;
+   background-position: right: ;
+   right: -150px;
+   height: 700px;
+   margin-top: -70px;
   }
+  
 
   .players {
     margin-top: -500px;
