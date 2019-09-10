@@ -91,6 +91,7 @@
   font-size: 8px;
   color:  #ffffff;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .download-way {
@@ -300,7 +301,7 @@
   font-family: 'Open Sans', 'Arial', sans-serif;
   color:  #ffffff;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  sletter-spacing: 0.5px;
 }
 
 .footer-leading {
@@ -457,21 +458,16 @@
   }
 
   .card-content {
-  padding: 90px 25px 100px 25px;
+  padding: 90px 30px 100px 30px;
   }
 
   .card-title {
    font-size: 80px;
-   line-height: 0.75;
+   line-height: 1.33;
   }
 
   .card-1 {
     margin-top: -500px;
-  }
-
-  .card-title {
-    font-size: 80px;
-    line-height: 0.75;
   }
 
   .card-text {
@@ -488,6 +484,7 @@
     line-height: 1.45;
     padding: 40px;
     margin-top: -90px;
+    margin-left: 30px;
   }
 
   .white-number::after {
@@ -511,11 +508,10 @@
 
   .footer-subject {
     font-size: 80px;
-    letter-spacing: 0.6px;
   }
 
   .footer-leading {
-    font-size: 34px;
+    font-size: 36px;
     margin-top: 5px;
   }
 
@@ -532,6 +528,61 @@
   padding-top: 45px;
   padding-bottom: 110px;
 }
+
+  .card {
+    display: flex;
+    position: relative;
+  }
+
+  .card-2 {
+    flex-direction: row-reverse;
+  }
+
+  .card__preview {
+    width: 50%;
+    min-height: 730px;
+    object-fit: cover;
+  }
+
+  .card__img {
+    min-height: 730px;
+    object-fit: cover;
+  }
+
+  .card-content {
+    width: 50%;
+    box-sizing: border-box;
+    min-height: 730px;
+    align-items: center;
+    padding-top: 250px;
+    padding-left: 100px;
+
+  }
+
+  .card-content-2 {
+    padding-right: 100px;
+    padding-left: 30px;
+  }
+
+  .white-number {
+    width: 170px;
+    height: 150px;
+    padding: 60px 65px;
+    margin-top: 13rem;
+    margin-left: calc(50% - (170px / 2));
+  }
+
+  .number-2 {
+    margin-left: calc(-50% + (170px / 2));
+  }
+
+  .card-title {
+    font-size: 80px;
+  }
+
+  .card-text {
+    font-size: 24px;
+  }
 
   .footer {
     background-image: url('images/game_1920.jpg');
