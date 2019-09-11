@@ -519,6 +519,16 @@
     margin-top: 60px;
   }
 
+@media (min-width: 641px) and (max-width: 712px) {
+  .footer-subject {
+    font-size: 70px;
+  }
+
+  .footer-leading {
+    font-size: 30px;
+  }
+}
+
 @media (min-width: 960px) {
   .header {
     background-image: url('images/football_1920.jpg');
