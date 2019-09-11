@@ -44,23 +44,29 @@
 .header-title {
   text-transform: uppercase;
   font-family: 'Open Sans', 'Arial', sans-serif;
-  font-size: 28px;
   color:  #ffffff;
   font-weight: 700;
   letter-spacing: 0.5px;
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .first-title {
   line-height: 2.5;
+  align-self: flex-start;
+  font-size: 28px;
 }
 
 .second-title {
-  display: block;
-  margin-left: 44px;
   line-height: 1.2;
-
+  align-self: flex-end;
+  font-size: 28px;
+  margin-left: auto;
 }
+
 .downloads {
   margin-top: 80px;
   display: flex;
@@ -338,10 +344,17 @@
   }
 
  .header-title {
-    font-size: 64px;
     line-height: 1;
     margin-top: 178px;
     letter-spacing: 0.5px;
+  }
+
+  .first-title {
+    font-size: 64px;
+  }
+
+  .second-title {
+    font-size: 64px;
   }
 
   .downloads {
