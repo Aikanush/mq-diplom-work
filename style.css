@@ -225,17 +225,19 @@
 }
 
 .white-number {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: #ffffff;
   background-color: #5e42b0;
   width: 70px;
   height: 70px;
-  padding: 25px;
   box-sizing: border-box;
   position: absolute;
   z-index: 5;
-  margin-top: -50px;
-  margin-left: 20px;
+  margin: -55px 0 0;
+  left: 20px;
 }
 
 .white-number::after {
@@ -482,9 +484,7 @@
     height: 115px;
     font-size: 24px;
     line-height: 1.45;
-    padding: 40px;
     margin-top: -90px;
-    margin-left: 30px;
   }
 
   .white-number::after {
@@ -565,15 +565,12 @@
   }
 
   .white-number {
-    width: 170px;
-    height: 150px;
-    padding: 60px 65px;
-    margin-top: 13rem;
-    margin-left: calc(50% - (170px / 2));
-  }
-
-  .number-2 {
-    margin-left: calc(-50% + (170px / 2));
+    width: 180px;
+    height: 180px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-90px, -90px);
+    margin: 0;
   }
 
   .card-title {
@@ -612,7 +609,7 @@
   }
 
   .footer-leading {
-    font-size: 30px;
+    font-size: 36px;
     text-align: left;
     margin-top: 0;
   }
