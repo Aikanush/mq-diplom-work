@@ -48,23 +48,18 @@
   font-weight: 700;
   letter-spacing: 0.5px;
   margin-top: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .first-title {
   line-height: 2.5;
-  align-self: flex-start;
   font-size: 28px;
 }
 
 .second-title {
+  display: block;
   line-height: 1.2;
-  align-self: flex-end;
   font-size: 28px;
-  margin-left: auto;
+  margin-left: 44px;
 }
 
 .downloads {
@@ -88,6 +83,7 @@
   border-radius: 25px;
   box-sizing: border-box;
   padding: 5px 70px 5px 82px;
+  text-decoration: none;
 
 }
 
@@ -97,7 +93,6 @@
   font-size: 8px;
   color:  #ffffff;
   font-weight: 400;
-  text-decoration: none;
 }
 
 .download-way {
@@ -344,17 +339,19 @@
   }
 
  .header-title {
-    line-height: 1;
+    line-height: 1.5;
     margin-top: 178px;
     letter-spacing: 0.5px;
   }
 
   .first-title {
     font-size: 64px;
+    margin-left: 44px;
   }
 
   .second-title {
     font-size: 64px;
+    margin-left: 110px;
   }
 
   .downloads {
@@ -412,7 +409,6 @@
 
   .menu-title, .athlete-text {
     width: 61%;
-    margin-right: 5px;
 
   }
 
@@ -548,9 +544,39 @@
   }
 
   .container {
-  padding-top: 45px;
-  padding-bottom: 110px;
-}
+    padding: 45px 170px 110px 170px;
+  }
+
+  .header-title {
+    margin-top: 250px;
+  }
+
+  .first-title {
+    margin-left: 0;
+    font-size: 90px;
+    line-height: 1;
+  }
+
+  .second-title {
+    margin-left: 330px;
+    font-size: 90px;
+  } 
+
+  .downloads {
+    margin-top: 220px;
+  }
+
+  .menu-title, .athlete-text {
+    width: 50%;
+
+  }
+
+  .section-title-athlete::before {
+   background-image: url('images/footballer_566.png');
+   width: 50%;
+   background-position: left;
+   height: 700px;
+  }
 
   .card {
     display: flex;
@@ -637,7 +663,7 @@
     margin-top: 0;
   }
 
-  .downloads {
+  .downloads-footer {
     margin-top: 100px;
   }
 
