@@ -125,14 +125,6 @@
 
 }
 
-.row {
-  display: flex;
-}
-
-.column {
-  width: 100%;
-}
-
 .section-athlets::before {
   content: "";
   background-image: url('images/footballer_320.png');
@@ -163,11 +155,6 @@
   background-color: #5e42b0;
   border-radius: 2px;
 
-}
-.menu-item {
-  display: flex;
-  position: relative;
-  flex-wrap: wrap;
 }
 
 .connaction {
@@ -573,6 +560,9 @@
     margin-left: 50%;
   }
 
+  .player-title {
+    margin-left: 170px;
+  }
 
   .content-title {
     font-size: 36px;
@@ -702,22 +692,3 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
