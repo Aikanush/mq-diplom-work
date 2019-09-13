@@ -48,6 +48,8 @@
   font-weight: 700;
   letter-spacing: 0.5px;
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .first-title {
@@ -135,7 +137,7 @@
   content: "";
   background-image: url('images/footballer_320.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  width: 100%;
   background-position: center;
   height: 300px;
   position: absolute;
@@ -192,11 +194,15 @@
   margin-top: 25px;
 }
 
+.section-players {
+  position: relative;
+}
+
 .section-players::before {
   content: "";
   background-image: url('images/player_320.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  width: 100%;
   background-position: center;
   height: 300px;
   position: absolute;
@@ -268,6 +274,7 @@
 .card-content {
   padding: 35px 20px 80px 20px;
 }
+
 .card-title {
   font-size:  28px;
 }
@@ -407,17 +414,16 @@
   .column-athlets {
     padding: 40px 30px 40px 38%;
   }
-  }
 
   .column-player {
-    padding: 40px 30px 40px 30px;
+    padding: 40px 38% 40px 30px;
   }
 
   .section-athlets::before {
    background-image: url('images/footballer_497.png');
-   width: 100%;
+   width: 60%;
    background-position: left;
-   left: -160px;
+   left: -150px;
    height: 700px;
    margin-top: 30px;
   }
@@ -451,10 +457,11 @@
 
   .section-players::before {
    background-image: url('images/basketballer_436.png');
-   width: 100%;
+   width: 70%;
    background-position: right;
    height: 700px;
    margin-top: -85px;
+   right: 0;
   }
   
 
@@ -519,6 +526,7 @@
     margin-top: 60px;
   }
 
+
 @media (min-width: 641px) and (max-width: 712px) {
   .footer-subject {
     font-size: 70px;
@@ -549,7 +557,7 @@
   }
 
   .second-title {
-    margin-left: 330px;
+    margin-left: 16%;
     font-size: 90px;
   } 
 
@@ -579,8 +587,8 @@
 
   }
 
-  .ddcolumn-players {
-    padding: 100px 60px 60px 60px;
+  .column-player {
+    padding: 100px 50% 60px 170px;
 
   }
 
@@ -595,7 +603,7 @@
   .section-players::before {
    background-image: url('images/basketballer_991.png');
    background-size: 55vw;
-   right: 0;
+   right: 5%;
    height: 900px;
    margin-top: -120px;
   }
