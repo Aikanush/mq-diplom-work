@@ -121,7 +121,8 @@
   margin-bottom: 230px;
   background-color: #ffffff;
   margin-top: 35px;
-  margin-left: 20px;
+  margin-left: 8%;
+  gtext-align: center;
 
 }
 
@@ -383,10 +384,11 @@
     margin-bottom: 0;
     font-size: 80px;
     margin-top: 83px;
+    text-align: left;
   }
 
   .athlets-title {
-    margin-left: 37%;
+    margin-left: 45%;
   }
 
   .player-title {
@@ -399,25 +401,20 @@
   }
 
   .column-athlets {
-    padding: 40px 30px 40px 38%;
+    padding: 40px 30px 40px 45%;
   }
 
   .column-player {
-    padding: 40px 38% 40px 30px;
+    padding: 40px 45% 40px 30px;
   }
 
   .section-athlets::before {
    background-image: url('images/footballer_497.png');
-   width: 60%;
+   width: 70%;
    background-position: left;
    left: -150px;
    height: 700px;
    margin-top: 30px;
-  }
-
-  .section-header {
-   font-size: 80px;
-   margin-top: 83px;
   }
 
   .content-title {
@@ -592,7 +589,7 @@
 
   .section-players::before {
    background-image: url('images/basketballer_991.png');
-   background-size: 55vw;
+   background-size: 50vw;
    right: 5%;
    height: 900px;
    margin-top: -120px;
