@@ -122,8 +122,6 @@
   background-color: #ffffff;
   margin-top: 35px;
   margin-left: 8%;
-  gtext-align: center;
-
 }
 
 .section-athlets::before {
@@ -384,7 +382,6 @@
     margin-bottom: 0;
     font-size: 80px;
     margin-top: 83px;
-    text-align: left;
   }
 
   .athlets-title {
